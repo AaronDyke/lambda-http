@@ -1,0 +1,18 @@
+[project]
+name = "lambda_http"
+version = "0.0.1"
+authors = [
+  { name="Aaron Dyke", email="aarond.prod@gmail.com" },
+]
+description = "Package to handle the returns from an api gateway python lambda funciton"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = []
+
+[project.urls]
+"Homepage" = "https://github.com/AaronDyke/lambda-http"
+"Bug Tracker" = "https://github.com/AaronDyke/lambda-http/issues"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
